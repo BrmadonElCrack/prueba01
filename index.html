@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Weather Journal</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styloOficial.css">
+<script src="app.js" type="text/javascript" defer></script>
+</head>
+ <body>
+  <div class ="title box">
+    <h1>Weather Journal App</h1>
+  </div>
+  <div class="city box">
+    <div class="card box">
+      <h4>Know the temperature according to your country</h4>
+      <div class="serch box">
+        <input  type="text" class= "myInput" placeholder="enter the country here">
+        <button id="generate"> Generate </button>
+      </div>
+    </div>
+    <div class="weather loading box">
+      <h3 class="wInCity box">Today the weather in London is:</h3>
+      <h2 class="temp box">52°C</h2>
+      <div class="flex box">
+        <img class="icon box" src="https://openweathermap.org/img/wn/04n.png" />
+        <div class="description box">Cloudy</div>
+      </div>
+      <div class="humidity box">Humidity: 60%</div>
+      <div class="wind box">Wind speed: 6.2 km/h</div>
+      <div class="date box">Date: 03/08/2022</div>
+    </div>
+  </div>
+  <div class="zip box">
+    <div class="cardZ box">
+      <h4>Know the temperature according to your zip code</h4>
+      <div class="serchZ box">
+        <input  type="text" class= "myInputZ" placeholder="enter zip code here">
+        <button id="generateZ"> Generate </button>
+      </div>
+    </div>
+    <div class="weatherZ loadingZ box">
+      <h3 class="wInCityZ box">Today the weather in London is:</h3>
+      <h2 class="tempZ box">52°C</h2>
+      <div class="flexZ box">
+        <img class="iconZ box" src="https://openweathermap.org/img/wn/04n.png" />
+        <div class="descriptionZ box">Cloudy</div>
+      </div>
+      <div class="humidityZ box">Humidity: 60%</div>
+      <div class="windZ box">Wind speed: 6.2 km/h</div>
+      <div class="dateZ box">Date: 03/08/2022</div>
+    </div>
+</body>
+</html>
